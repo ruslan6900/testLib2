@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license               = { :type => 'GNU GPL Version 3', :file => 'LICENSE' }
   s.author                = { "Username" => "username@mail.domain" }
   s.platform              = :ios, '14.0'
-  s.source                = { :git => "https://github.com/ruslan6900/testLib2.git", :tag => s.version.to_s }
+  s.source                = { :git => "https://github.com/ruslan6900/testLib2.git", :branch => "main", :tag => s.version.to_s }
   s.libraries = 'c++'
   s.pod_target_xcconfig = {
                             'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
