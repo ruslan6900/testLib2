@@ -8,7 +8,7 @@
 #include "Greeting.hpp"
 
 Greeting::Greeting() {
-    greeting = "Hello C++!";
+    greeting = ((char *)"hello");
 }
 
 char* Greeting::greet() {
