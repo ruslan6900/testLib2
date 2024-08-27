@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "MyLibrary"
-  s.version               = "0.0.1"
+  s.version               = "0.0.2"
   s.summary               = "Example of creating own pod."
   s.homepage              = "https://github.com/ruslan6900/testLib2"
   s.license               = { :type => 'GNU GPL Version 3', :file => 'LICENSE' }

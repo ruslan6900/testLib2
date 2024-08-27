@@ -14,6 +14,9 @@
 		0B36FC542C7DC45B009B4E5A /* Greeting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B36FC522C7DC45B009B4E5A /* Greeting.cpp */; };
 		0B36FC552C7DC45B009B4E5A /* Greeting.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0B36FC532C7DC45B009B4E5A /* Greeting.hpp */; };
 		0B36FC572C7DC661009B4E5A /* testLib2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B36FC562C7DC661009B4E5A /* testLib2.mm */; };
+		0B36FC772C7DEDAC009B4E5A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0B36FC742C7DEDAC009B4E5A /* LICENSE */; };
+		0B36FC782C7DEDAC009B4E5A /* MyLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0B36FC752C7DEDAC009B4E5A /* MyLibrary.podspec */; };
+		0B36FC792C7DEDAC009B4E5A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0B36FC762C7DEDAC009B4E5A /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		0B36FC522C7DC45B009B4E5A /* Greeting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Greeting.cpp; sourceTree = "<group>"; };
 		0B36FC532C7DC45B009B4E5A /* Greeting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Greeting.hpp; sourceTree = "<group>"; };
 		0B36FC562C7DC661009B4E5A /* testLib2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = testLib2.mm; sourceTree = "<group>"; };
+		0B36FC742C7DEDAC009B4E5A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0B36FC752C7DEDAC009B4E5A /* MyLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyLibrary.podspec; sourceTree = "<group>"; };
+		0B36FC762C7DEDAC009B4E5A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 		0B36FC2A2C7DC223009B4E5A = {
 			isa = PBXGroup;
 			children = (
+				0B36FC742C7DEDAC009B4E5A /* LICENSE */,
+				0B36FC752C7DEDAC009B4E5A /* MyLibrary.podspec */,
+				0B36FC762C7DEDAC009B4E5A /* Podfile */,
 				0B36FC362C7DC223009B4E5A /* testLib2 */,
 				0B36FC422C7DC224009B4E5A /* testLib2Tests */,
 				0B36FC352C7DC223009B4E5A /* Products */,
@@ -186,6 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B36FC792C7DEDAC009B4E5A /* Podfile in Resources */,
+				0B36FC782C7DEDAC009B4E5A /* MyLibrary.podspec in Resources */,
+				0B36FC772C7DEDAC009B4E5A /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
