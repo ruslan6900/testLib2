@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "testLib2"
-  s.version               = "0.0.2"
+  s.version               = "0.0.31"
   s.summary               = "Example of creating own pod."
   s.homepage              = "https://github.com/ruslan6900/testLib2"
 
