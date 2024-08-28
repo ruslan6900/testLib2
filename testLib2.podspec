@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
 
   s.source                = { :git => "https://github.com/ruslan6900/testLib2.git", :tag => s.version.to_s }
 
-  # s.libraries = 'c++'
-  # s.pod_target_xcconfig = {
-  #                           'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
-  #                           'CLANG_CXX_LIBRARY' => 'libc++'
-  #                         }
+  s.libraries = 'c++'
+  s.pod_target_xcconfig = {
+                            'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
+                            'CLANG_CXX_LIBRARY' => 'libc++'
+                          }
 
   s.ios.deployment_target = '14.0'
 
